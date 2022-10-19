@@ -13,11 +13,11 @@
 #theme                  : "minimal-mistakes-jekyll"
 remote_theme: "mmistakes/minimal-mistakes@4.16.0"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "sunrise" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "aqua" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US" 
-title                    : "ali kargar"
+title                    : "Ali kargar"
 title_separator          : "-"
 name                     : "Ali" 
 description              : "Welcome to my web site."
@@ -107,7 +107,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "ali kargar"
+  name             : "Ali kargar"
   avatar           : "/assets/images/2.jpg"
   bio              : i am student of university of sience and technology
   location         : "تهران"
