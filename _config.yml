@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "mint" #"default" # "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "en-US" 
-title                    : "Ali kargar"
+title                    : "علی کارگر"
 title_separator          : "-"
 name                     : "Ali" 
 description              : "Welcome to my web site."
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Ali kargar"
   avatar           : "/assets/images/4.jpg"
-  bio              : i am computer student of university of sience and technology.
+  bio              : I am a computer engineering student at the University of Science and Technology.
   location         : "تهران"
   email            : alikargar0901@gmail.com
   twitter: 

@@ -8,10 +8,16 @@ modified: 4-10-2019
 comments: true
 ---
 
-### همکلاسی‌ها
-* علی حسینی
-* بهداد محمدی
-* حسن داریان
+### Friends
+* AmirHossein zareshahi 
+* Ali Emami
+* Mohammad neisari
+* Mahdi Mohammadi
+* Amin Sahraei
+* Shahriar Behjati
+* MohammadMahdi Ashrafzadeh
+* MohammadAmin Shad
+* Amirhossein Kargar
 
 
 
