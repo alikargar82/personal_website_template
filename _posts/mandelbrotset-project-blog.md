@@ -4,10 +4,15 @@ title: final project-mandel brot set
 ---
 ## mandel-brot-set 
 The project consists of several parts, including:
-1- Project algorithm design with Python
-2- Project design with C
-3- Production of suitable soundtrack for the project
-4- Writing a blog for different parts of this project
+
+- Project algorithm design with Python
+
+- Project design with C
+
+- Production of suitable soundtrack for the project
+
+- Writing a blog for different parts of this project
+
 
 To carry out this project, we must first have a general view of the function of the Mendel-Brot 
 function and its features, which we could have achieved with a little search or a complete study
@@ -34,16 +39,20 @@ the iteration of each pixel was slow (compared to C language), so we went to use
 create images without using any library as well as Faster calculation, increase processing speed.
 Writing a program in C language had its own challenges. Among these challenges, I can mention the following:
 
-1- The most elementary challenge was writing MendelBrot set general algorithm and the reason for that
+- The most elementary challenge was writing MendelBrot set general algorithm and the reason for that
 was not using the complex numbers library in C language.
-2- Writing general algorithms using structures made the work a little more difficult than Python language.
-3- To run the program, it was necessary to read the config file and for this we had to complete the code
+
+- Writing general algorithms using structures made the work a little more difficult than Python language.
+
+- To run the program, it was necessary to read the config file and for this we had to complete the code
 related to this section.
-4- After completing the above steps, we encountered several problems in outputting photos. I can point to 
+
+- After completing the above steps, we encountered several problems in outputting photos. I can point to 
 the infinite production of photos, the output of a photo without any visual content (empty photo), the 
 output of a black photo in all functions, the splitting of the photo into two parts (due to the wrong
 implementation of the inverse tangent function), other minor errors. 
-5- Adding new functions to the program that can ultimately improve the overall video.
+
+- Adding new functions to the program that can ultimately improve the overall video.
 
 After a lot of debugging, we were able to remove these problems step by step and reach a good output.
 We can see a sample photo produced with C below:
