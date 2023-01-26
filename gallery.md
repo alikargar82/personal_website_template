@@ -27,6 +27,11 @@ gallery:
     image_path: /assets/images/5.jpg
     alt: "placeholder image 5"
     title: "Image 5 title caption"    
+    - url: /assets/images/6.jpg
+    image_path: /assets/images/6.jpg
+    alt: "placeholder image 6"
+    title: "new image in exam"    
+  
 ---
 
 
