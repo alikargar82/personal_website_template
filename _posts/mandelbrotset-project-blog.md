@@ -1,33 +1,68 @@
 ---
 layout: posts
-title:پروژه نهایی:مندل برات ست
+title: final project-mandel brot set
 ---
-##بلاگ پروژه مندل برات ست 
- پروژه از چندین قسمت مهم تشکیل می شد از جمله :
-1-	طراحی الگوریتم کلی پروژه با python 
-2-	طراحی پروژه به صورت کلی با C 
-3-	تولید موسیقی متن مناسب برای پروژه 
-4-	نوشتن بلاگ برای بخش های مختلف این پروژه 
+## mandel-brot-set 
+The project consists of several parts, including:
+1- Project algorithm design with Python
+2- Project design with C
+3- Production of suitable soundtrack for the project
+4- Writing a blog for different parts of this project
 
-برای انجام دادن این پروژه ابتدا به یک دید کلی از کارکرد تابع مندل برات ست و ویژگی های آن داشتیم که خوشبختانه با کمی سرچ یا مطالعه کامل مستند استاد میتوانستیم به این دید کلی دست پیدا کنیم .
-شروع پروژه با زدن کد پایتون آن بود که زدن کد پایتون آن یک دید کلی خیلی خوب از الگوریتم مجموعه میداد و باعث میشد که از نظر الگوریتمی مسیر درستی را در پیش بگیریم به علاوه این که در پایتون برای تولید تصویر ما باید از کتابخانه pillow  استفاده میکردیم که کار را برای تولید تصویر به شدت راحت تر میکرد و ما درگیر طراحی تصویر و پیچ و خم های آن نمیشدیم . در کل زدن کد پایتون بهترین روش برای درک درست الگوریتم و کلیات کار این پروژه بود .
-برای زدن کد پایتون سراغ بخش های مختلفی مثل انواع رنگ آمیزی ها و یا انواع مختلفی از قابلیت هایی برای تابع مندل برات ست رفتم.در بعضی جا ها سعی کردم خلاقیت به خرج دهم و ایده ای جدید را پیاده کنم .مثلا در پیاده سازی تابع زوم ،آنرا با تغییر مرکز همراه کردم به این صورت که تابع زوم برای ورودی خود نیاز به دونقطه و مقدار زوم داشت . این تابع متفاوت از تابع نوشته شده در زبان C عمل میکند . 
-نمونه عکس تولید شده در زبان python را در پایین مشاهده میکنیم:
-![alt text](../assets/images/pythonpic.jpg "the photo that created with Python")
-برنامه نویسی پروژه با زبان C :
-برنامه نویسی با زبان C به این علت بود که استفاده از کتابخانه pillow  و همچنین محسابه iteration  هر پیکسل ، کند بود (نسبت به زبان C) برای همین به سراغ استفاده از زبان C رفتیم تا بدون استفاده از هرگونه کتابخانه ای برای ساختن عکس و همچنین محاسبه سریع تر ، سرعت پردازش را بالا ببریم .
-نوشتن برنامه با زبان سی چالش های خودش را داشت . از جمله این چالش های میتوانم به موراد زیر اشاره کنم :
-1-ابتدایی ترین چالش نوشتن الگوریتم کلی مندل برات ست بود و دلیل آن هم استفاده نکردن از کتابخانه اعداد مختلط در زبان C بود.
-2- نوشتن الگوریتم های کلی با استفاده از استراکت ها کار را کمی نسبت به زبان پایتون سخت تر میکرد .
-3- برای اجرای برنامه نیاز به خواندن فایل کانفیگ بود و باید برای این کار کد مربوط به این بخش را تکمیل میکردیم .
-4-بعد از طی شدن مراحل بالا به اشکالات متعددی در خروجی گرفتن از عکس ها رسیدیم. میتوانم به بینهایت تولید شدن عکس ها ، خروجی گرفتن عکس بدون هیچ محتوای بصری (عکس خالی)،خروجی گرفتن عکس سیاه در همه تابع ها،دو قسمت شدن عکس (به دلیل پیاده سازی اشتباه تابع تانژانت وارون)،اشتباهات جزئی در تابع های اصلی که باعث خراب شدن کلی ویدیوی کلی میشد ،اشاره کنم .
-5-اضافه کردن تابع های جدیدی به برنامه که بتواند در نهایت باعث بهتر شدن ویدیوی کلی بشود .
-بعد از کلی دیباگ کردن تونستیم کم کم این مشکلات رو از سر راه برداریم و به یه خروجی خوب برسیم .
-از نمونه عکس های تولید شده با C میتونم به مورد زیر اشاره کنم:
-![alt text](../assets/images/cpic.jpg "the photo that created with C")
-یکی دیگه از مشکلاتی که برای تولید عکس نهایی برام به وجود اومد این بود که برای پیدا کردن تصاویر جالب به یکی از سایت های موجود برای این کار رفتم ولی مشکل این بود که نسبت طول به عرض اون سایت تقریبا 3 به 1 بود درحالی که نسبت طول به عرض تصویر من 3 به 2 بود اما این مشکل خیلی مشکل بزرگی نبود چرا که با تغییر تعداد پیکسل تصویر از 1800*1200 به 574*1800  تونستم ابعاد کلی رو درست کنم تا بعد از دادن طول و عرض خواسته شده به فایل کانفیگ ابعاد تصویر من به هم نخوره .میزان حجم هر تصویر تولید شده با زبان C تقریبا .98Mb میباشد .
-بعد از همه این ها نوبت به تولید موسیقی متن مناسب برای پروژه میرسید .
-برای تولید موسیقی باید از برنامه sonicpi  استفاده میکردیم و این برنامه مثل زبان c  یاpython  دارای تابع های مختلفی بود و از ساز های مختلفی هم پشتیبانی میکرد .من برای زدن موسیقی این پروژه ترجیح دادم که از خود مثال های برنامه استفاده کنم و درنهایت چند تا موسیقی رو انتخاب کردم که بتونه با ویدیوی نهایی من همخوانی داشته باشه .در نهایت به چهار موسیقی رسیدم و با تغییرات جزئی در یکی یا دو تا از آنها ،از آنها خروجی گرفتم .
-در نهایت ویدیو نهایی را با fps های مختلفی خروجی گرفتم .ابتدا آنرا روی 5 گذاشتم ولی از آنجا که زمان ویدیو خیلی زیاد میشد و در ویدیو به نوعی گسستگی تصاویر وجود داشت fps  فیلم را روی 20 گذاشتم و از آن با موسیقی نهایی خروجی گرفتم .
+To carry out this project, we must first have a general view of the function of the Mendel-Brot 
+function and its features, which we could have achieved with a little search or a complete study
+of the professor's document.
 
+The initial step was to write the Python code. Entering the Python code gave a very good overview
+of the algorithm and made us take the right path algorithmically, in addition to the fact that in
+Python we had to use the pillow library to generate the image, which made image generation much
+easier. And we did not get involved in image design and its difficulties. In general, Python code
+was the best way to understand the algorithm and general work of this project.
+
+To write the Python code, I went to different parts such as different types of coloring or
+different types of features for MendelBrot set function. In some stages, I tried to be 
+creative and implement a new idea. For example, in the implementation of the zoom function.
+I combined it with changing the center so that the zoom function needed the destination point
+and the zoom value for its input. This function works differently from the function written in C language.
+We can see the example of the photo produced in python language below:
+![alt text](../assets/images/pythonpic.png "the photo that created with Python")
+
+
+Project programming with C language:
+Programming with C language was due to the fact that using the pillow library as well as calculating
+the iteration of each pixel was slow (compared to C language), so we went to use C language to
+create images without using any library as well as Faster calculation, increase processing speed.
+Writing a program in C language had its own challenges. Among these challenges, I can mention the following:
+
+1- The most elementary challenge was writing MendelBrot set general algorithm and the reason for that
+was not using the complex numbers library in C language.
+2- Writing general algorithms using structures made the work a little more difficult than Python language.
+3- To run the program, it was necessary to read the config file and for this we had to complete the code
+related to this section.
+4- After completing the above steps, we encountered several problems in outputting photos. I can point to 
+the infinite production of photos, the output of a photo without any visual content (empty photo), the 
+output of a black photo in all functions, the splitting of the photo into two parts (due to the wrong
+implementation of the inverse tangent function), other minor errors. 
+5- Adding new functions to the program that can ultimately improve the overall video.
+
+After a lot of debugging, we were able to remove these problems step by step and reach a good output.
+We can see a sample photo produced with C below:
+![alt text](../assets/images/cpic.bmp "the photo that created with C")
+
+
+Another problem that I had to produce the final photo was that I went to one of the existing sites
+to find interesting images for this purpose, but the problem was that the length to width ratio of
+that site was almost 3 to 1, while the ratio of The length to width of my image was 3 to 2, but this
+problem was not a big problem because by changing the number of pixels of the image from 1200x1800
+to 1800x574, I was able to fix the overall dimensions. This made the images not look stretched.
+The size of each image produced with C language is approximately 0.98 Mb.
+
+After all this, it was time to produce a suitable soundtrack for the project.
+To produce music, we had to use the sonicpi program, and this program had various functions like c
+or python and supported various instruments. I chose music that could match my final video.
+I ended up with four songs and outputted them with minor changes to one or two of them.
+
+Finally, I output the final video with different fps. At first, I set it to 5, but because the video
+time was too long and there was a kind of discontinuity of images in the video, I set the fps of the
+ video to 20 and output it with the final music.
 
